@@ -12,4 +12,4 @@ provision new Jenkins agent pre-configured with the following attributes
 
 2. Run the shell script
 
-3. Connect to Jenkins from locally
+3. Connect to Jenkins locally
