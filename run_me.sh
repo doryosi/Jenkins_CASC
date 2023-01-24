@@ -6,6 +6,8 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install docker.io docker-compose
 
+sudo systemctl start docker.service
+
 # Provison the Jenkins server
 
 sudo docker-compose up -d
