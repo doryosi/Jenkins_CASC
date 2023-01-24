@@ -1,10 +1,15 @@
+# Description:
+
+provision new Jenkins agent pre-configured with the following attributes
+  - Plugins
+  - Jenkins URL
+  - Administartor user
+  - Authorization
+
 # How to:
-Git clone this repo to provision new Jenkins agent pre-configured with the following attributes:
 
-Plugins
-Jenkins URL
-Administartor user
-Authorization
-Run the shell script
+1. Git clone this repo 
 
-Connect to Jenkins from locally
+2. Run the shell script
+
+3. Connect to Jenkins from locally
