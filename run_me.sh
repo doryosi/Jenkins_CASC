@@ -12,8 +12,8 @@ sudo systemctl start docker.service
 
 read -p "Choose Username for Jenkins Server: " USERNAME
 read -p "Choose Password for Jenkins Server: " PASSWORD
-export USERNAME
-export PASSWORD
+echo "USERNAME=$USERNAME" > .env
+echo "PASSWORD=$PASSWORD" >> .env
 
 # Provison the Jenkins server
 
@@ -23,4 +23,5 @@ sudo docker-compose up -d
 echo "##############################################"
 echo "Open the browser and connect to 127.0.0.1:8080"
 echo "##############################################"
+
 
