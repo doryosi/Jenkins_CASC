@@ -12,8 +12,8 @@ sudo systemctl start docker.service
 
 read -p "Choose Username for Jenkins Server: " USERNAME
 read -p "Choose Password for Jenkins Server: " PASSWORD
-echo "USERNAME=$USERNAME" > .env
-echo "PASSWORD=$PASSWORD" >> .env
+echo "JENKINS_ADMIN_ID=$USERNAME" > .env
+echo "JENKINS_ADMIN_PASSWORD=$PASSWORD" >> .env
 
 # Provison the Jenkins server
 
