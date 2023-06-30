@@ -4,6 +4,8 @@ services:
     build: .
     image: jenkins:jcasc
     container_name: "jenkins"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
     networks:
